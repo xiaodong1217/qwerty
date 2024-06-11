@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassList</title>
+    <link rel="stylesheet" href="wangye.css">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+</head>
+<body>
+    <header id="index_header">
+        <div class="header_inner">
+            <!--  登录 开始  -->
+            <section class="fl a_mouse">
+                <img class="inner_img" src="img/nav_1.png" />欢迎来到冬的world！
+                <a href="login.html">登录</a>
+                <a href="#">注册</a>
+            </section>
+            
+            <section class="fr a_mouse">
+                <a href="#"><img class="inner_img" src="img/nav_2.png" /></a>
+                <a href="#">学习中心</a>
+                <a href="#">在线客服</a>
+                <a href="#">APP下载</a>
+                <a href="./edit.html">留言</a>
+            </section>
+            <!--  登录 结束  -->
+        </div>
+    </header>
+    <nav id="index_nav">
+        <!-- Logo 开始 -->
+        <img class="fl nav_logo" src="img/微信图片_20240324173533.jpg" width="150"/>
+        <!-- Logo 结束 -->
+        <!-- 导航栏列表 开始 -->
+        <ul class="nav_ul">
+            <a href="/index.html"><li class="actives">首页</li></a>
+            <a href="class.html" ><li class="active">课程表</li></a>
+            <a href="../自行车介绍/自行车.html" target="_blank"><li class="active">骑行</li></a>
+            <a href="#"><li class="active">大学生活</li></a>
+            <a href="qxf class.html" ><li class="active">大学信息</li></a>
+        </ul>
+        <!-- 导航栏列表 结束 -->
+        <!-- 搜索 开始 -->
+        <div class="nav_search fr">
+            <img src="img/nav_3.png" />
+            <input placeholder="请输入"  autocomplete="off" />
+            <div class="a_mouse fr">搜索</div>
+        </div>
+        <!-- 搜索 结束 -->
+    </nav>
+    <!-- 导航栏 结束 -->
+    <h1>赣南师范大学学生信息</h1>
+    <form action -"#" method="post" name="test1" autocomplete="off" novalidate>
+        <p>学号*： <input type="text" name="id" required></p>
+        
+        <p>性别*：<input type="radio" name="rad" required>男
+            <input type="radio" name="rad">女
+            </p>
+        <p>生日：<input type="date" ></p>
+        <p>邮箱：<input type="email" name="email"></p>
+        <p>电话*：<input type="tel" name="tel" required></p>
+        <p>兴趣：<input type="checkbox" name="chb">跳舞
+            <input type="checkbox" name="chb">唱歌
+            <input type="checkbox" name="chb">运动
+            <input type="checkbox" name="chb">游戏
+            <input type="checkbox" name="chb">学习
+        </p>    
+        <p>学历（qulification）：<select name="qulifacation" >
+            <option >本科生</option>
+            <option >研究生</option>
+        </select></p>
+        <p>喜欢去的食堂（canteen）：
+            <select name="canteen" >
+                <option >南苑</option>
+                <option >北苑</option>
+            </select>
+        </p>
+        <p style="color: blue;">喜欢的颜色：
+            <select name="color" >
+                <option style="color: aliceblue;">白色</option>
+                <option style="color: gold;" >黄色</option>
+                <option style="color: blue;">蓝色</option>
+                <option style="color: darkgreen;">绿色</option>
+                <option style="color: aquamarine;">青色</option>
+                <option style="color: mediumorchid;">紫色</option>
+            </select>
+            <br><br>
+        </p>
+        <p>上传头像*：<input type="file" name="fi" required></p>
+        <p>
+            <label >个性签名</label><br>
+            <textarea name="gq" id="" cols="40" rows="5" style="color: crimson;"></textarea>
+        </p>
+        <p>校园信息</p>
+        <p>所在学院
+            <select name="school" >
+                <option >数计学院</option>
+                <option >体育学院</option>
+                <option >文学院</option>
+                <option >马克思学院</option>
+                <option >物电学院</option>
+                <option >地理学院</option>
+                <option >脐橙学院</option>
+            </select>
+        </p>
+        <p>家庭住址：<select >
+            <optgroup label="江西">
+                <option >上饶</option>
+                <option >新余</option>
+                <option >南昌</option>
+                <option >萍乡</option>
+                <option >赣州</option>
+            </optgroup>
+        </select>
+        </p>
+        <p>你的专业：<select name="major" >
+            <option >计算机科学与技术</option>
+            <option >数学与应用数学</option>
+            <option >大数据</option>
+            <option >数学公费</option>
+            <option >应用统计</option>
+        </select></p>
+
+
+
+
+
+        <input type="submit" name="sub">
+        <input type="reset" name="res">
+
+    </form>
+    <div id="myfoot">
+        <p>版权所有：wdd 技术支持：wdd 电子邮件：18296390980@163.com 联系电话：15707045580</p>
+    </div>
+</body>
+</html>

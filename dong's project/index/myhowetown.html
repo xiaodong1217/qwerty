@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hometown</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <!-- 链接CSS样式表文件 -->
+    <link rel="stylesheet" href="wangye1.css">
+    <style>
+        .hometown_intro {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .hometown_intro img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .hometown_intro h2 {
+            color: #333;
+        }
+
+        .hometown_intro p {
+            color: #666;
+        }
+
+        .hometown_gallery {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .hometown_gallery img {
+            width: 300px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 页眉 开始 -->
+    <header id="index_header">
+        <div class="header_inner">
+            <!--  登录 开始  -->
+            <section class="fl a_mouse">
+                <img class="inner_img" src="img/nav_1.png" />欢迎来到冬的world！
+                <a href="login.html">登录</a>
+                <a href="#">注册</a>
+            </section>
+            
+            <section class="fr a_mouse">
+                <a href="#"><img class="inner_img" src="img/nav_2.png" /></a>
+                <a href="#">学习中心</a>
+                <a href="#">在线客服</a>
+                <a href="#">APP下载</a>
+                <a href="./edit.html">留言</a>
+            </section>
+            <!--  登录 结束  -->
+        </div>
+    </header>
+    <!-- 页眉 结束 -->
+    
+    <!-- 导航栏 开始 -->
+    <nav id="index_nav">
+        <!-- Logo 开始 -->
+        <img class="fl nav_logo" src="img/微信图片_20240324173533.jpg" width="150"/>
+        <!-- Logo 结束 -->
+        <!-- 导航栏列表 开始 -->
+        <ul class="nav_ul">
+            <a href="/index.html"><li class="actives">首页</li></a>
+            <a href="class.html" ><li class="active">课程表</li></a>
+            <a href="../自行车介绍/自行车.html" target="_blank"><li class="active">骑行</li></a>
+            <a href="#" ><li class="active">大学生活</li></a>
+            <a href="qxf class.html" ><li class="active">大学信息</li></a>
+        </ul>
+        <!-- 导航栏列表 结束 -->
+        <!-- 搜索 开始 -->
+        <div class="nav_search fr">
+            <img src="img/nav_3.png" />
+            <input placeholder="请输入"  autocomplete="off" />
+            <div class="a_mouse fr">搜索</div>
+        </div>
+        <!-- 搜索 结束 -->
+    </nav>
+    <!-- 导航栏 结束 -->
+
+    <!-- 主体内容 开始 -->
+    <div class="hometown_intro">
+        <h2>欢迎来到我的家乡——上饶市万年县</h2>
+        <img src="img/wannian.jpg" alt="万年县风景" width="600">
+        <p>万年县位于江西省上饶市南部，素有“九天之上一片石”之称。这里山清水秀，风景优美，是一座充满自然风光和人文历史的美丽县城。</p>
+        <p>万年县不仅有着壮美的自然风光，还有着丰富的历史文化底蕴。县内有众多历史名胜，如仙人洞、怪事林、万年县珍珠、万年青、万年贡米、青云古镇等，吸引着众多游客前来观光游览。</p>
+        <p>无论是山水还是人文，万年县都值得一游。欢迎您来到我的家乡，感受这里的美丽与宁静。</p>
+    </div>
+
+    <div class="hometown_gallery">
+        <img src="img/wannian2.jpg" alt="万年县风景" width="300">
+        <img src="img/wannian3.jpg" alt="万年县风景" width="300">
+        <img src="img/wannian4.jpg" alt="万年县风景" width="300">
+        <img src="img/wannian5.jpg" alt="万年县风景" width="300">
+    </div>
+    <!-- 主体内容 结束 -->
+
+    <!-- 页脚 开始 -->
+    <footer id="index_footer">
+        <div class="footer_1">
+            合 作 机 构：
+            <a href="#">邱清华出版社</a>
+            <a href="#">赖靖出版社</a>
+            <a href="#">肖荣鑫出版社</a>
+            <a href="#">丁峰出版社</a>
+            <a href="#">邹铭出版社</a>
+        </div>
+        <div class="footer_2">
+            <img class="fl" src="img/微信图片_20240324173533.jpg"/>
+            <div class="fr footer_2_1">
+                <a href="#">关于211</a>
+                <a href="#">加入211</a>
+                <a href="#">合作入驻</a>
+                <a href="#">联系我们</a>
+                <a href="#">常见问题</a>
+                <a href="#">意见反馈</a>
+                <p>© 2005-2999 wudongdong.com版权所有 增值电信业务经营许可证：沪ICP备00000000号</p>
+            </div>
+        </div>
+    </footer>
+    <!-- 页脚结束 -->
+    
+    <!-- 链接javascript文件 -->
+    <script src="index.js" type="text/javascript" ></script>
+</body>
+<div id="myfoot">
+    <p>版权所有：wdd 技术支持：wdd 电子邮件：18296390980@163.com 联系电话：15707045580</p>
+</div>
+</body>
+</html>

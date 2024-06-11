@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>课程表</title>
+    <link rel="shortcut icon" href="../img/图标.ico">
+    <link rel="stylesheet" href="./schedule2024.css">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="wangye.css">
+</head>
+
+<body>
+    <header id="index_header">
+        <div class="header_inner">
+            <!--  登录 开始  -->
+            <section class="fl a_mouse">
+                <img class="inner_img" src="img/nav_1.png" />欢迎来到冬的world！
+                <a href="login.html">登录</a>
+                <a href="#">注册</a>
+            </section>
+            
+            <section class="fr a_mouse">
+                <a href="#"><img class="inner_img" src="img/nav_2.png" /></a>
+                <a href="#">学习中心</a>
+                <a href="#">在线客服</a>
+                <a href="#">APP下载</a>
+                <a href="./edit.html">留言</a>
+            </section>
+            <!--  登录 结束  -->
+        </div>
+    </header>
+    <nav id="index_nav">
+        <!-- Logo 开始 -->
+        <img class="fl nav_logo" src="img/微信图片_20240324173533.jpg" width="150"/>
+        <!-- Logo 结束 -->
+        <!-- 导航栏列表 开始 -->
+        <ul class="nav_ul">
+            <a href="/index.html"><li class="actives">首页</li></a>
+            <a href="class.html" ><li class="active">课程表</li></a>
+            <a href="../自行车介绍/自行车.html" target="_blank"><li class="active">骑行</li></a>
+            <a href="#"><li class="active">大学生活</li></a>
+            <a href="qxf class.html" ><li class="active">大学信息</li></a>
+        </ul>
+        <!-- 导航栏列表 结束 -->
+        <!-- 搜索 开始 -->
+        <div class="nav_search fr">
+            <img src="img/nav_3.png" />
+            <input placeholder="请输入"  autocomplete="off" />
+            <div class="a_mouse fr">搜索</div>
+        </div>
+        <!-- 搜索 结束 -->
+    </nav>
+    <!-- 导航栏 结束 -->
+    <div id="mainconter">
+
+        <div>
+
+            <table frame="box" rules="all">
+                <caption>高中课程表</caption>
+                <tr style="background-color: aliceblue;">
+                    <th colspan="2">&nbsp;</th>
+                    <th>星期一</th>
+                    <th>星期二</th>
+                    <th>星期三</th>
+                    <th>星期四</th>
+                    <th>星期五</th>
+                    <th>星期六</th>
+                    <th>星期天</th>
+                </tr>
+                <tr>
+                    <th rowspan="5">上午</th>
+                    <th>早自习</th>
+                    <td colspan="5">背单词 / 写作业 / 预习 / 复习</td>
+                    <td id="res" rowspan="3"></td>
+                    <td id="res" rowspan="3"></td>
+                </tr>
+                <tr>
+                    <th>第一节</th>
+                    <td id="cp" rowspan="2">c++程序设计<br><small>@1-319</small></td>
+                    <td id="math" rowspan="2">高等数学<br><small>@1-309</small></td>
+                    <td id="py" rowspan="2">Python程序设计<br><small>@7-408试验室</small></td>
+                    <td id="math" rowspan="2">高等数学<br><small>@1-309</small></td>
+                    <td id="rest" rowspan="2"></td>
+                </tr>
+                <tr>
+                    <th>第二节</th>
+                </tr>
+                <tr>
+                    <th>第三节</th>
+                    <td id="py" rowspan="2">Python程序设计<br><small>@7-408试验室</small></td>
+                    <td id="eng" rowspan="2">大学外语||<br><small>@1-216</small></td>
+                    <td id="c" rowspan="2">计算机软件系统综合开发实训<br><small>@7-412试验室</small></td>
+                    <td id="engls" rowspan="2">大学外语||<br><small>@9-606</small></td>
+                    <td id="math" rowspan="2">高等数学<br><small>@1-309</small></td>
+                    <td id="rest" rowspan="2"></td>
+                    <td id="rest" rowspan="2"></td>
+                </tr>
+                <tr>
+                    <th>第四节
+                </tr>
+                <tr>
+                    <th colspan="9">午休</th>
+                </tr>
+                <tr>
+                    <th rowspan="4">下午</th>
+                    <th>第五节</th>
+                    <td id="exs" rowspan="2" ;>大学生体育||（男生组）<br><small>运动场</small></td>
+                    <td id="rm" rowspan="2"></small></td>
+                    <td id="cp" rowspan="2">c++程序设计<br><small>@1-319</small></td>
+                    <td id="his" rowspan="2">中国近代史纲要（含红色文化）<br><small>@1-301</small></td>
+                    <td id="rest" rowspan="2"></td>
+                    <td id="rest" rowspan="2"></td>
+                    <td id="rest" rowspan="2"></td>
+                </tr>
+                <tr>
+                    <th>第六节</th>
+                </tr>
+                <tr>
+                    <th>第七节</th>
+                    <td id="cpp" rowspan="2">c++程序设计<br><small>@7-403实验室</small></td>
+                    <td id="web" rowspan="2">web技术开发<br><small>@人文101-6机房</small></td>
+                    <td id="rm" rowspan="2"></td>
+                    <td id="web" rowspan="2">web技术开发<br><small>@人文101-6机房</small></td>
+                    <td id="pol" rowspan="2">形式与政治||<br><small>@1-105</small></td>
+                    <td id="rm" rowspan="2"></td>
+                    <td id="rm" rowspan="2"></td>
+                </tr>
+                <tr>
+                    <th>第八节</th>
+                </tr>
+                <tr>
+                    <th rowspan="2">晚自习</th>
+                    <th>第九节</th>
+                    <td rowspan="2"></td>
+                    <td id="zysy" rowspan="2">职业生涯规划与就业创业指导<br><small>@1-312</small></td>
+                    <td id="rm" rowspan="2"></td>
+                    <td id="cxcy" rowspan="2">创新创业概论<small>@1-105</small></td>
+                    <td id="rest" rowspan="2"></td>
+                    <td id="rest" rowspan="2"></td>
+                    <td id="rest" rowspan="2"></td>
+                </tr>
+                <tr>
+                    <th>第十节</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="myfoot">
+        <p>版权所有：wdd 技术支持：wdd 电子邮件：18296390980@163.com 联系电话：15707045580</p>
+    </div>
+
+</body>
+
+</html>

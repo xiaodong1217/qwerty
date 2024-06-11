@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音乐推荐</title>
+    <link rel="shortcut icon" href="./img/wyy.png">
+    <link rel="stylesheet" href="wangye.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .header_inner, .nav_search {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header_inner {
+            padding: 10px;
+        }
+
+        .header_inner img.inner_img {
+            margin-right: 10px;
+        }
+
+        #index_nav {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+        .nav_ul {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav_ul li {
+            margin-right: 20px;
+        }
+
+        .nav_search img {
+            margin-right: 10px;
+        }
+
+        .music-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .music-link {
+            margin: 10px;
+            text-align: center;
+        }
+
+        .music-link img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header id="index_header">
+        <div class="header_inner">
+            <!-- 登录 开始 -->
+            <section class="fl a_mouse">
+                <img class="inner_img" src="img/nav_1.png" alt="Logo"/>欢迎来到冬的world！
+                <a href="login.html">登录</a>
+                <a href="#">注册</a>
+            </section>
+            <section class="fr a_mouse">
+                <a href="#"><img class="inner_img" src="img/nav_2.png" alt="学习中心"/></a>
+                <a href="#">学习中心</a>
+                <a href="#">在线客服</a>
+                <a href="#">APP下载</a>
+                <a href="./edit.html">留言</a>
+            </section>
+            <!-- 登录 结束 -->
+        </div>
+    </header>
+    <nav id="index_nav">
+        <!-- Logo 开始 -->
+        <img class="fl nav_logo" src="img/微信图片_20240324173533.jpg" width="150" alt="Logo"/>
+        <!-- Logo 结束 -->
+        <!-- 导航栏列表 开始 -->
+        <ul class="nav_ul">
+            <a href="/index.html"><li class="actives">首页</li></a>
+            <a href="class.html" ><li class="active">课程表</li></a>
+            <a href="../自行车介绍/自行车.html" target="_blank"><li class="active">骑行</li></a>
+            <a href="#"><li class="active">大学生活</li></a>
+            <a href="qxf class.html" ><li class="active">大学信息</li></a>
+        </ul>
+        <!-- 导航栏列表 结束 -->
+        <!-- 搜索 开始 -->
+        <div class="nav_search fr">
+            <img src="img/nav_3.png" alt="搜索图标"/>
+            <input placeholder="请输入" autocomplete="off"/>
+            <div class="a_mouse fr">搜索</div>
+        </div>
+        <!-- 搜索 结束 -->
+    </nav>
+    <!-- 导航栏 结束 -->
+    <div class="music-links">
+        <a class="music-link" href="https://www.bilibili.com/video/BV1FS4y1u7yz/" target="_blank">
+            <img src="./img/last_page.jpg" alt="最后一页">
+            最后一页
+        </a>
+        <a class="music-link" href="https://www.bilibili.com/video/BV1V5411m76m/?p=63" target="_blank">
+            <img src="./img/road_north.jpg" alt="一路向北">
+            一路向北
+        </a>
+        <a class="music-link" href="https://www.bilibili.com/video/BV1qW411b7ie/?vd_source=aa4636f4df7d1875f6e4c29eb9ae4df3" target="_blank">
+            <img src="./img/track.jpg" alt="轨迹">
+            轨迹
+        </a>
+        <a class="music-link" href="https://www.bilibili.com/video/BV1JJ411D73t/" target="_blank">
+            <img src="./img/can_you_hear.jpg" alt="你听得到">
+            你听得到
+        </a>
+        <a class="music-link" href="https://www.bilibili.com/video/BV13B4y1P79z/" target="_blank">
+            <img src="./img/rain_love.jpg" alt="雨爱">
+            雨爱
+        </a>
+        <a class="music-link" href="https://www.bilibili.com/video/BV11h4y1r7Dk/?spm_id_from=333.337.search-card.all.click&vd_source=aa4636f4df7d1875f6e4c29eb9ae4df3" target="_blank">
+            <img src="./img/can_only_leave.jpg" alt="我只能离开">
+            只能离开
+        </a>
+        <a class="music-link" href="https://www.bilibili.com/video/BV1mD4y1U7z9/" target="_blank">
+            <img src="./img/road_north.jpg" alt="一路向北">
+            一路向北
+        </a>
+    </div>
+    <footer id="myfoot">
+        <p>版权所有：wdd 技术支持：wdd 电子邮件：18296390980@163.com 联系电话：15707045580</p>
+    </footer>
+</body>
+</html>

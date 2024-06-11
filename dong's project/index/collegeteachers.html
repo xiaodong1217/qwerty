@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <!-- 链接CSS样式表文件 -->
+    <link rel="stylesheet" href="wangye1.css">
+    <style>
+        .teacher {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .teacher img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+
+        .teacher_content {
+            overflow: hidden;
+        }
+
+        .teacher_content h2 {
+            color: #333;
+        }
+
+        .teacher_content p {
+            color: #666;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 页眉 开始 -->
+    <header id="index_header">
+        <div class="header_inner">
+            <!--  登录 开始  -->
+            <section class="fl a_mouse">
+                <img class="inner_img" src="img/nav_1.png" />欢迎来到冬的world！
+                <a href="login.html">登录</a>
+                <a href="#">注册</a>
+            </section>
+            
+            <section class="fr a_mouse">
+                <a href="#"><img class="inner_img" src="img/nav_2.png" /></a>
+                <a href="#">学习中心</a>
+                <a href="#">在线客服</a>
+                <a href="#">APP下载</a>
+                <a href="./edit.html">留言</a>
+            </section>
+            <!--  登录 结束  -->
+        </div>
+    </header>
+    <!-- 页眉 结束 -->
+    
+    <!-- 导航栏 开始 -->
+    <nav id="index_nav">
+        <!-- Logo 开始 -->
+        <img class="fl nav_logo" src="img/微信图片_20240324173533.jpg" width="150"/>
+        <!-- Logo 结束 -->
+        <!-- 导航栏列表 开始 -->
+        <ul class="nav_ul">
+            <a href="/index.html"><li class="actives">首页</li></a>
+            <a href="class.html" ><li class="active">课程表</li></a>
+            <a href="../自行车介绍/自行车.html" target="_blank"><li class="active">骑行</li></a>
+            <a href="#" ><li class="active">大学生活</li></a>
+            <a href="qxf class.html" ><li class="active">大学信息</li></a>
+        </ul>
+        <!-- 导航栏列表 结束 -->
+        <!-- 搜索 开始 -->
+        <div class="nav_search fr">
+            <img src="img/nav_3.png" />
+            <input placeholder="请输入"  autocomplete="off" />
+            <div class="a_mouse fr">搜索</div>
+        </div>
+        <!-- 搜索 结束 -->
+    </nav>
+    <!-- 导航栏 结束 -->
+
+    <!-- 主体内容 开始 -->
+    <div class="main_content">
+        <div class="teacher">
+            <img src="img/teacher1.jpg" alt="Teacher 1" width="150">
+            <div class="teacher_content">
+                <h2>邱修峰</h2>
+                <p>邱老师拥有多年的计算机科学教学经验，专长于算法设计与分析。他注重理论与实践相结合，擅长引导学生探索问题的本质，培养学生的创新思维和问题解决能力。</p>
+            </div>
+        </div>
+        
+        <div class="teacher">
+            <img src="img/teacher2.jpg" alt="刘辅导员" width="150">
+            <div class="teacher_content">
+                <h2>刘高风</h2>
+                <p>刘辅导员是一位非常和蔼可亲、热心肠的老师。她总是乐于倾听学生的困惑与需求，并且给予耐心的指导和帮助。她不仅关心学生的学业，更关心学生的成长和生活。在她的帮助下，学生们总能感受到温暖与关爱，她是我们学院的一颗闪亮的星星。</p>
+            </div>
+        </div>
+        
+        
+    </div>
+    <!-- 主体内容 结束 -->
+
+    <!-- 页脚 开始 -->
+    <footer id="index_footer">
+        <div class="footer_1">
+            合 作 机 构：
+            <a href="#">邱清华出版社</a>
+            <a href="#">赖靖出版社</a>
+            <a href="#">肖荣鑫出版社</a>
+            <a href="#">丁峰出版社</a>
+            <a href="#">邹铭出版社</a>
+        </div>
+        <div class="footer_2">
+            <img class="fl" src="img/微信图片_20240324173533.jpg"/>
+            <div class="fr footer_2_1">
+                <a href="#">关于211</a>
+                <a href="#">加入211</a>
+                <a href="#">合作入驻</a>
+                <a href="#">联系我们</a>
+                <a href="#">常见问题</a>
+                <a href="#">意见反馈</a>
+                <p>© 2005-2999 wudongdong.com版权所有 增值电信业务经营许可证：沪ICP备00000000号</p>
+            </div>
+        </div>
+    </footer>
+    <!-- 页脚结束 -->
+    
+    <!-- 链接javascript文件 -->
+    <script src="index.js" type="text/javascript" ></script>
+</body>
+<div id="myfoot">
+    <p>版权所有：wdd 技术支持：wdd 电子邮件：18296390980@163.com 联系电话：15707045580</p>
+</div>
+</body>
+</html>
